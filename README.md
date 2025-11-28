@@ -24,7 +24,7 @@ The folder `data/` is empty at the start. All field data correlation functions h
 
 Field data $C_1$ correlations are hosted at University of Hamburg research data repository: [...](#)
 
-Extract `correlations.zip` in the `data/` directory.
+Download and extract `correlations.zip` in the `data/` directory.
 
 The extracted files are 
 
