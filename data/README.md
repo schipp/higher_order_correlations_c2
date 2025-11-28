@@ -1,3 +1,3 @@
 # Data
 
-For data instructions, see the [repository README](../README.md)
+For data instructions, see the [main repository README](../README.md#data)
