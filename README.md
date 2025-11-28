@@ -1,11 +1,10 @@
 # Source effects in higher-order ambient seismic field correlations
 
-<img align="left" src="assets/snakeeye.webp" width="250px">
-
 This repository contains all data products, metadata, and code necessary to reproduce all figures of the manuscript "Source effects in higher-order ambient seismic field correlations" by Schippkus et al. (2025).
 
 ## Abstract
 
+<img align="left" src="assets/snakeeye.webp" width="250px"> 
 Seismic interferometry of the ambient seismic field is widely used for surface wave imaging. It typically requires synchronous station recordings and assumes uniform noise source distributions. Higher-order correlations, such as the re-correlation of direct waves ($C_2$), have been suggested to facilitate imaging with asynchronous data and to improve an incomplete source distribution. Using field data and simulations, we show that $C_2$ surface wavefields are instead highly sensitive to the original source distribution and even amplify the effects associated with the directional incidence. This can lead to systematic errors in the obtained velocity estimates and the downstream subsurface images. Strategies for selecting auxiliary stations in the re-correlation process do not mitigate this bias but can introduce additional wavefield distortions. Local and far-field imaging approaches using higher-order $C_2$ correlation wavefields are affected by significant and systematic velocity estimation errors. Our results show that the re-correlation of direct waves is not an all-purpose correlation wavefield enhancement technique, and highlight the need for a careful consideration of source effects for improved imaging.
 
 ## Repository structure
