@@ -1,6 +1,6 @@
 # Source effects in higher-order ambient seismic field correlations
 
-This repository contains all data products, metadata, and codes necessary to reproduce all figures of the manuscript "Source effects in higher-order ambient seismic field correlations" by Schippkus et al. (2025).
+This repository contains all data products, metadata, and codes necessary to reproduce all figures of the manuscript "Source effects in higher-order ambient seismic field correlations" by Schippkus et al., in review.
 
 ## Abstract
 
@@ -16,7 +16,7 @@ Seismic interferometry of the ambient seismic field is widely used for surface w
 
 ## Data
 
-The folder `data/` is empty at the start. All correlation functions have to be downloaded and/or generated. We do not provide raw field data, but only the correlation functions necessary for reproduction of our results.
+The folder `data/` is empty at the start. All field data correlation functions have to be downloaded and simulations generated. With the same settings as used in the manuscript and notebooks, this will in total require ~70GB of disk space. We do not provide raw field data, but only the correlation functions necessary for reproduction of our results.
 
 ### $C_1$ correlation functions 
 
@@ -26,12 +26,12 @@ Field data $C_1$ correlations are hosted at University of Hamburg research data 
 
 **DOWNLOAD HERE**: [...](#)
 
-Extract `correlations.zip` in `data/` directory.
+Extract `correlations.zip` in the `data/` directory.
 
 The extracted files are 
 
-- `correlations_for_c1_data.pt`: $C_1$ cross-correlations of all 1990 receiver stations with the master station in the center. Saved as a `torch.tensor` with shape `[1990, 1201]`. First dimension (the receiver stations) is sorted alphabetically. Required for comparison of $C_1$ and $C_2$ wavefields.
-- `correlations_for_c2_data.pt`: $C_1$ cross-correlations of all 1990 receiver stations, including the master station, with the 304 auxiliary stations surrounding them. Saved as a `torch.tensor` with shape `[1990, 305, 1201]`. First dimension (the receiver stations) and second dimension (the auxiliary stations) are sorted alphabetically. The basis for computing $C_2$ correlations.
+- `correlations_for_c1_data.pt`: $C_1$ cross-correlations of all 1990 receiver stations with the master station in the center. Saved as a `torch.tensor` with shape `[1990, 3001]`. Sampling rate 5 Hz, 300 seconds of anti-causal and causal lapse time included. First dimension (the receiver stations) is sorted alphabetically. Required for comparison of $C_1$ and $C_2$ wavefields.
+- `correlations_for_c2_data.pt`: $C_1$ cross-correlations of all 1990 receiver stations, including the master station, with the 304 auxiliary stations surrounding them. Saved as a `torch.tensor` with shape `[1990, 305, 3001]`. Sampling rate 5 Hz, 300 seconds of anti-causal and causal lapse time included. First dimension (the receiver stations) and second dimension (the auxiliary stations) are sorted alphabetically. The basis for computing $C_2$ correlations.
 
 These correlations are computed as described in the manuscript: ~4 weeks of continuous recordings are cut into 1-hr windows and spectrally whitened. All windows are cross-correlated and linearly stacked. No additional processing.
 
