@@ -1,5 +1,7 @@
 # Source effects in higher-order ambient seismic field correlations
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17778709.svg)](https://doi.org/10.5281/zenodo.17778709)
+
 This repository contains all data products, metadata, and codes necessary to reproduce all figures of the manuscript "Source effects in higher-order ambient seismic field correlations" by Schippkus et al., in review.
 
 ## Abstract
@@ -22,7 +24,7 @@ The folder `data/` is empty at the start. All field data correlation functions h
 
 #### Field data
 
-Field data $C_1$ correlations are hosted at University of Hamburg research data repository: [![DOI](https://www.fdr.uni-hamburg.de/badge/DOI/10.25592/uhhfdm.18152.svg)](https://doi.org/10.25592/uhhfdm.18152)
+Field data $C_1$ correlations are hosted at University of Hamburg research data repository at [![DOI](https://www.fdr.uni-hamburg.de/badge/DOI/10.25592/uhhfdm.18152.svg)](https://doi.org/10.25592/uhhfdm.18152)
 
 Download the files and save them in the `data/` directory.
 
