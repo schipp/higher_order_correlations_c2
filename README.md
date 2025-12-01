@@ -3,9 +3,7 @@
 This repository contains all data products, metadata, and codes necessary to reproduce all figures of the manuscript "Source effects in higher-order ambient seismic field correlations" by Schippkus et al., in review.
 
 Manuscript: [placeholder]
-
 Data repository: [![DOI](https://www.fdr.uni-hamburg.de/badge/DOI/10.25592/uhhfdm.18152.svg)](https://doi.org/10.25592/uhhfdm.18152)
-
 This repository: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17778709.svg)](https://doi.org/10.5281/zenodo.17778709)
 
 
