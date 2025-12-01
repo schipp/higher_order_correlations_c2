@@ -22,14 +22,14 @@ The folder `data/` is empty at the start. All field data correlation functions h
 
 #### Field data
 
-Field data $C_1$ correlations are hosted at University of Hamburg research data repository: [...](#)
+Field data $C_1$ correlations are hosted at University of Hamburg research data repository: [DOI:10.25592/uhhfdm.18152](https://doi.org/10.25592/uhhfdm.18152)
 
-Download and extract `correlations.zip` in the `data/` directory.
+Download the files and save them in the `data/` directory.
 
-The extracted files are 
+The new files are 
 
-- `correlations_for_c1_data.pt`: $C_1$ cross-correlations of all 1990 receiver stations with the master station in the center. Saved as a `torch.tensor` with shape `[1990, 3001]`. Sampling rate 5 Hz, 300 seconds of anti-causal and causal lapse time included. First dimension (the receiver stations) is sorted alphabetically. Required for comparison of $C_1$ and $C_2$ wavefields.
-- `correlations_for_c2_data.pt`: $C_1$ cross-correlations of all 1990 receiver stations, including the master station, with the 304 auxiliary stations surrounding them. Saved as a `torch.tensor` with shape `[1990, 305, 3001]`. Sampling rate 5 Hz, 300 seconds of anti-causal and causal lapse time included. First dimension (the receiver stations) and second dimension (the auxiliary stations) are sorted alphabetically. The basis for computing $C_2$ correlations.
+- `correlations_for_c1_data.pt`: $C_1$ cross-correlations of all 1990 receiver stations with the master station in the center. Saved as a `torch.tensor` with shape `[1990, 3001]`. Sampling rate 5 Hz, 300 seconds of anti-causal and causal lapse time included. First dimension (the receiver stations) is sorted alphabetically by station name. Required for comparison of $C_1$ and $C_2$ wavefields.
+- `correlations_for_c2_data.pt`: $C_1$ cross-correlations of all 1990 receiver stations, including the master station, with the 304 auxiliary stations surrounding them. Saved as a `torch.tensor` with shape `[1990, 305, 3001]`. Sampling rate 5 Hz, 300 seconds of anti-causal and causal lapse time included. First dimension (the receiver stations) and second dimension (the auxiliary stations) are sorted alphabetically by station name. The basis for computing $C_2$ correlations.
 
 These correlations are computed as described in the manuscript: ~4 weeks of continuous recordings are cut into 1-hr windows and spectrally whitened. All windows are cross-correlated and linearly stacked. No additional processing.
 
