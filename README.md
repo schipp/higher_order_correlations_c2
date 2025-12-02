@@ -27,7 +27,7 @@ The folder `data/` is empty at the start. All field data correlation functions h
 
 #### Field data
 
-> ![IMPORTANT]
+> [!IMPORTANT]
 > Field data $C_1$ correlations are hosted at University of Hamburg research data repository at [![DOI](https://www.fdr.uni-hamburg.de/badge/DOI/10.25592/uhhfdm.18152.svg)](https://doi.org/10.25592/uhhfdm.18152)
 
 Download the files and save them in the `data/` directory.
