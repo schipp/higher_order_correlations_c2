@@ -1,11 +1,15 @@
 # Source effects in higher-order ambient seismic field correlations
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17778709.svg)](https://doi.org/10.5281/zenodo.17778709)
+
 This repository contains all data products, metadata, and codes necessary to reproduce all figures of the manuscript "Source effects in higher-order ambient seismic field correlations" by Schippkus et al., in review.
 
 Manuscript: [placeholder]
 Data: [![DOI](https://www.fdr.uni-hamburg.de/badge/DOI/10.25592/uhhfdm.18152.svg)](https://doi.org/10.25592/uhhfdm.18152)
-Codes (here): [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17778709.svg)](https://doi.org/10.5281/zenodo.17778709)
 
+
+> [!NOTE]
+> Some of the notebooks will not run on laptops or personal PCs due to memory limitations. We ran the analysis on a server with 64 CPU threads and 512 GB of RAM.
 
 ## Abstract
 
